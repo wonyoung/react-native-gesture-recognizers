@@ -155,7 +155,7 @@ const swipeable = ({
       this.velocityProp = null;
       this.distanceProp = null;
       this.swipeDirection = null;
-    }
+    };
 
     render() {
       const {

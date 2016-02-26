@@ -22,7 +22,7 @@ export default ({
 } = {}) => BaseComponent => {
   return class extends Component {
 
-    static propTypes = propTypes
+    static propTypes = propTypes;
 
     constructor(props, context) {
       super(props, context);
@@ -98,7 +98,7 @@ export default ({
       this.lastX = this.absoluteChangeX;
       this.lastY = this.absoluteChangeY;
       onPanEnd && onPanEnd(); // eslint-disable-line no-unused-expressions
-    }
+    };
 
     render() {
       const {
